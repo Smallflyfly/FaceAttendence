@@ -25,8 +25,8 @@ video_capture = cv2.VideoCapture(0)
 fang_image = face_recognition.load_image_file("fang.jpg")
 fang_face_encoding = face_recognition.face_encodings(fang_image)[0]
 
-# print(fang_face_encoding)
-# fang[-1]
+print(fang_face_encoding)
+fang[-1]
 
 # Load a second sample picture and learn how to recognize it.
 # biden_image = face_recognition.load_image_file("biden.jpg")
